@@ -1,0 +1,5 @@
+# ignore unused scss src files
+themes/faded/src/flavors/*.bak
+
+# ignore the public directory
+public/

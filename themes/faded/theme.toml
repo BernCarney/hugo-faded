@@ -3,19 +3,19 @@
 
 name = "Faded"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://example.com/"
-tags = []
+licenselink = "https://github.com/BernCarney/hugo-faded/blob/master/LICENSE.md"
+description = "A clean, responsive, mobile-first theme for Hugo."
+homepage = "https://github.com/BernCarney/hugo-faded"
+tags = ["clean","Hugo","CV","Resume","responsive","mobile first"]
 features = []
 min_version = "0.31.1"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Bern Carney"
+  homepage = "https://berncarney.com"
 
 # If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+# [original]
+#   name = ""
+#   homepage = ""
+#   repo = ""

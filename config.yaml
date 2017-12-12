@@ -1,3 +1,6 @@
-baseURL: http://example.org/
+# Basic Setup Variables
+baseURL: "/"
 languageCode: en-us
-title: My New Hugo Site
+title: Faded - A Little Bit Lighter
+theme: faded
+MetaDataFormat: yaml
