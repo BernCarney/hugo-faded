@@ -1,17 +1,7 @@
 {{ partial "header.html" . }}
 
-{{/* Container for entire page */}}
-<div class="container">
-
-  {{/* Navbar */}}
-  <nav>
-    {{/* mobile first then big boys */}}
-  </nav>
-
-  {{/* Sidebar */}}
-  <sidebar>
-    {{/* recent posts, categories, copyright, about, contact, picture */}}
-  </sidebar>
+  {{ partial "nav.html" . }}
+  {{ partial "sidebar.html" . }}
 
   {{/* Main Content */}}
   <div class="main">
@@ -29,11 +19,11 @@
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ end }}
     {{ end }}
-  </div>
 
-  {{/* Footer */}}
-  <footer>
-    {{/* Contact Pagination and stuff? */}}
-  </footer>
-</div>
+    {{/* dummy lipsum */}}
+    <p>Commodo nostrud eu ex pariatur id quis eu tempor nostrud ex laboris sunt eu et magna duis. Sunt enim fugiat nulla cupidatat ut nulla deserunt voluptate tempor sunt aliquip ea esse. Proident enim officia fugiat ut mollit dolore adipisicing anim duis Lorem commodo minim consequat minim adipisicing. Deserunt adipisicing adipisicing sint sunt minim labore irure sit aute officia. Sint amet est eiusmod commodo in eiusmod dolore ullamco deserunt ut deserunt ex ut sit.</p>
+    <p>Ut elit commodo et excepteur commodo cupidatat dolor sit aliqua irure officia cillum qui. Nisi aute pariatur ea in qui nostrud ut id dolore esse pariatur minim labore exercitation elit sit sint. Cillum do enim ad exercitation esse excepteur nulla dolore nisi dolore labore aute. Amet amet minim est nisi est do in irure anim commodo veniam aliqua fugiat. Non nisi mollit adipisicing ut voluptate cillum veniam dolor pariatur labore incididunt voluptate elit dolor non nisi. Enim consectetur proident esse et nulla labore ipsum pariatur exercitation fugiat duis nulla ex.</p>
+    <p>Eu velit in nisi eiusmod eiusmod anim consectetur nisi cillum labore. Fugiat dolore aliqua voluptate ea nostrud sint eu Lorem incididunt culpa aliqua. Et commodo tempor ea commodo occaecat tempor proident labore culpa voluptate sunt. Ipsum laboris non ipsum veniam quis incididunt culpa anim proident fugiat enim mollit adipisicing reprehenderit. Dolore cillum laboris reprehenderit minim pariatur laborum nisi magna non adipisicing in sit veniam velit dolor nisi non. Esse qui irure sint exercitation quis proident anim ex sint fugiat quis incididunt quis ut commodo adipisicing.</p>
+    <p>Cupidatat magna sit fugiat Lorem culpa dolore nostrud eiusmod ex. Mollit enim aute nulla reprehenderit est non esse culpa sint commodo tempor laborum dolor excepteur. Nulla incididunt ex non amet nulla dolore aliqua ea cillum. Culpa aliquip Lorem duis nisi ut mollit mollit nulla est voluptate aute est sint et.</p>
+  </div>
 {{ partial "footer.html" . }}
