@@ -64,13 +64,13 @@ $code-element-border-radius:  2*$_1px;            // Border radius for <code>
 $code-element-box-shadow:     none;               // Box shadow for <code>
 $pre-element-padding:         0.75rem;            // Padding for <pre>
 $pre-element-fore-color:  $code-element-fore-color;  // Text color for <pre>
-$pre-element-back-color:  $code-element-back-color;  // Background color for <pre>
+$pre-element-back-color:  #23241f;  // Background color for <pre>
 $pre-element-border-style:    0;                  // Border style for <pre>
 $pre-element-border-radius:   0 2*$_1px 2*$_1px 0;// Border radius for <pre>
-$pre-element-margin:          0.5rem;             // Margin for <pre>
+$pre-element-margin:          0.5rem 1rem;             // Margin for <pre>
 $pre-element-box-shadow:      none;               // Box shadow for <pre>
 $add-pre-element-sidebar:     true;               // Should a fancy sidebar be added to the left side of <pre> (`true`/`false`) [7]
-$pre-element-sidebar-style:   4*$_1px solid #1565c0;// Style of the sidebar of <pre>
+$pre-element-sidebar-style:   4*$_1px solid #f92672;// Style of the sidebar of <pre>
 $kbd-element-padding:         $code-element-padding;  // Padding for <kbd>
 $kbd-element-fore-color:      #fafafa;            // Text color for <kbd>
 $kbd-element-back-color:      #0c0c0c;            // Background color for <kbd>
