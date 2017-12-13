@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title:
 type: resume
-lastupdate: {{ .Lastmod }}
+lastupdate: {{ .Date }}
 ---
