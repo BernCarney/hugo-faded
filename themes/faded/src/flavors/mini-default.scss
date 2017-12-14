@@ -17,7 +17,7 @@ $base-root-font-size:   16px;                     // Root font sizing for all el
 $_1px:  (1px/$base-root-font-size) * 1rem;        // Calculated rem value of 1px [1]
 $base-font-size:        1rem;                     // Default font sizing for all elements [2]
 $base-line-height:      1.5;                      // Default line height for all elements.
-$use-fluid-typography:  false;                    // Should fluid typography be used at the root element? (`true`/`false`)
+$use-fluid-typography:  true;                    // Should fluid typography be used at the root element? (`true`/`false`)
 $body-margin:           0;                        // Margin for the body
 $apply-defaults-to-all: true;                     // Should default values be applied to all elements? (`true` or `false`) [3]
 $h1-font-size:          2rem;                     // Font size of h1
@@ -320,11 +320,11 @@ $drawer-close-right:       0.25rem;                // Right position of the draw
 $footer-back-color:        #192024;                // Background color for <footer>
 $footer-fore-color:        #f5f5f5;                // Text color for <footer>
 $footer-border-style:      0;                      // Border stye for <footer>
-$footer-font-size:         0.875rem;               // Font size for <footer>
+$footer-font-size:         0.775rem;               // Font size for <footer>
 $footer-margin:            1rem 0 0;               // Margin for <footer>
 $footer-padding:           1.5rem 0.5rem 0.75rem;  // Padding for <footer>
 $footer-link-fore-color:   #0288d1;                // Text color for links in <footer>
-$include-footer-sticky:    true;                   // Should sticky <footer> elements be included (`true`/`false`) [3]
+$include-footer-sticky:    false;                   // Should sticky <footer> elements be included (`true`/`false`) [3]
 $footer-sticky-name:       'sticky';               // Class name for sticky <footer> elements
 //  Notes:
 // [1] - If the value of $include-header-sticky is `true`, a class will be created that will allow for sticky positioning
