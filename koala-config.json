@@ -3,7 +3,7 @@
 	// The mappings of source directory and output directory
 	"mappings": [
 		// {
-		// 	"src": "themes/faded/src",
+		// 	"src": "themes/faded/src/bulma",
 		// 	"dest": "themes/faded/static/css"
 		// }
 	],

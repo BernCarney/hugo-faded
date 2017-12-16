@@ -1,19 +1,14 @@
 {{ partial "head.html" . }}
+{{ partial "nav.html" . }}
 
-<div class="block">
-  <div class="columns">
-    <div class="column has-text-centered">
-      <p class="notification is-primary">About Card</p>
-      <figure class="image is-128x128">
-        <img src="https://bulma.io/images/placeholders/128x128.png" alt="" />
-      </figure>
-      <p class="notification">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-    </div>
-    <div class="column is-three-quarters">
-      <p class="notification is-danger">Content Section</p>
-      <p class="notification">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim assumenda veritatis voluptatum aut cum eaque fugit sapiente. Fugit incidunt voluptatem, tempore culpa possimus rerum, nobis, adipisci reiciendis, molestias autem consequatur. At tempore quo iure reprehenderit explicabo quis aperiam deserunt minus iusto mollitia, nemo odit quas blanditiis eaque iste repellat placeat fuga atque quod sed eum ut voluptate. Aliquid neque, labore! Voluptas aliquam tempore sit unde repellendus officiis expedita amet, numquam mollitia reiciendis. Maxime ipsa, dicta alias repudiandae distinctio voluptates, et repellendus ipsum blanditiis, atque nostrum.</p>
-    </div>
-  </div>
-</div>
+<section class="section">
+  {{ partial "profile.html" . }}
+</section>
+
+<article>
+  {{ range first 1 (where .Site.Pages "Type" "post") }}
+      {{ .Render "single"}}
+  {{ end }}
+</article>
 
 {{ partial "footer.html" . }}

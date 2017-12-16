@@ -179,7 +179,7 @@ pre {
   color: #4a4a4a;
   font-size: 0.875em;
   overflow-x: auto;
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem 0.5rem;
   white-space: pre;
   word-wrap: normal; }
   pre code {
@@ -4374,7 +4374,7 @@ a.dropdown-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
+  min-height: 2.25rem;
   position: relative; }
   .navbar.is-white {
     background-color: white;
@@ -4763,7 +4763,7 @@ a.dropdown-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 3.25rem;
+    min-height: 2.25rem;
     width: 100%; }
   .navbar.has-shadow {
     -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
@@ -4782,10 +4782,10 @@ a.dropdown-item {
     top: 0; }
 
 html.has-navbar-fixed-top {
-  padding-top: 3.25rem; }
+  padding-top: 2.25rem; }
 
 html.has-navbar-fixed-bottom {
-  padding-bottom: 3.25rem; }
+  padding-bottom: 2.25rem; }
 
 .navbar-brand,
 .navbar-tabs {
@@ -4797,7 +4797,7 @@ html.has-navbar-fixed-bottom {
   display: flex;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  min-height: 3.25rem; }
+  min-height: 2.25rem; }
 
 .navbar-tabs {
   -webkit-overflow-scrolling: touch;
@@ -4808,9 +4808,9 @@ html.has-navbar-fixed-bottom {
 .navbar-burger {
   cursor: pointer;
   display: block;
-  height: 3.25rem;
+  height: 2.25rem;
   position: relative;
-  width: 3.25rem;
+  width: 2.25rem;
   margin-left: auto; }
   .navbar-burger span {
     background-color: currentColor;
@@ -4881,7 +4881,7 @@ a.navbar-link.is-active {
         flex-shrink: 1; }
   .navbar-item.is-tab {
     border-bottom: 1px solid transparent;
-    min-height: 3.25rem;
+    min-height: 2.25rem;
     padding-bottom: calc(0.5rem - 1px); }
     .navbar-item.is-tab:hover {
       background-color: transparent;
@@ -4954,14 +4954,14 @@ a.navbar-link.is-active {
     top: 0; }
   .navbar.is-fixed-top .navbar-menu, .navbar.is-fixed-top-touch .navbar-menu {
     -webkit-overflow-scrolling: touch;
-    max-height: calc(100vh - 3.25rem);
+    max-height: calc(100vh - 2.25rem);
     overflow: auto; }
 
   html.has-navbar-fixed-top-touch {
-    padding-top: 3.25rem; }
+    padding-top: 2.25rem; }
 
   html.has-navbar-fixed-bottom-touch {
-    padding-bottom: 3.25rem; } }
+    padding-bottom: 2.25rem; } }
 @media screen and (min-width: 1024px) {
   .navbar,
   .navbar-menu,
@@ -4975,7 +4975,7 @@ a.navbar-link.is-active {
     display: flex; }
 
   .navbar {
-    min-height: 3.25rem; }
+    min-height: 2.25rem; }
     .navbar.is-transparent a.navbar-item:hover, .navbar.is-transparent a.navbar-item.is-active,
     .navbar.is-transparent a.navbar-link:hover,
     .navbar.is-transparent a.navbar-link.is-active {
@@ -5131,10 +5131,10 @@ a.navbar-link.is-active {
     top: 0; }
 
   html.has-navbar-fixed-top-desktop {
-    padding-top: 3.25rem; }
+    padding-top: 2.25rem; }
 
   html.has-navbar-fixed-bottom-desktop {
-    padding-bottom: 3.25rem; }
+    padding-bottom: 2.25rem; }
 
   a.navbar-item.is-active,
   a.navbar-link.is-active {
@@ -7428,3 +7428,46 @@ label.panel-block {
 .footer {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
+
+.is-divider, .is-divider-vertical {
+  display: block;
+  position: relative; }
+
+.is-divider[data-content]::after, .is-divider-vertical[data-content]::after {
+  background: white;
+  color: #b5b5b5;
+  content: attr(data-content);
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.5rem 0.8rem;
+  -webkit-transform: translateY(-1.1rem);
+  transform: translateY(-1.1rem);
+  text-align: center; }
+
+.is-divider {
+  border-top: 0.1rem solid #dbdbdb;
+  height: 0.1rem;
+  margin: 2rem 0;
+  text-align: center; }
+
+.is-divider-vertical {
+  display: block;
+  padding: 2rem;
+  position: relative; }
+  .is-divider-vertical::before {
+    border-left: 0.1rem solid #dbdbdb;
+    bottom: 1rem;
+    content: "";
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 1rem;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .is-divider-vertical[data-content]::after {
+    left: 50%;
+    padding: 0.4rem 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
