@@ -3,3 +3,7 @@ themes/faded/src/flavors/*.bak
 
 # ignore the public directory
 public/
+
+# npm packages
+package-lock.json
+node_modules
