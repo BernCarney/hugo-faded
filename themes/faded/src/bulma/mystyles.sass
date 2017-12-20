@@ -1,7 +1,16 @@
-// 1. Import the initial variables
+// 1. Import Variables
+@import "./sass/utilities/initial-variables"
+@import "./sass/utilities/functions"
+
+// 2. Customize Variables
+$content-pre-padding: .75em .5em !default
+$section-padding: 3rem .75rem !default
+$navbar-height: 2.25rem !default
+
+// 3. Import the rest of Bulma
 @import "bulma"
 
-// 2. Customize
+// 4. Customize
 .navbar-burger
   height: auto
   span
@@ -13,3 +22,10 @@
   &.is-active
     span
       background-color: $red
+
+.nav-bar
+  box-shadow: 0 2px 5px $grey-lighter
+
+pre
+  +overflow-touch
+  padding: 1.25rem .5rem
