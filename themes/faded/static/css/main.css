@@ -7472,3 +7472,12 @@ label.panel-block {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
+
+.navbar-burger span {
+  height: 2px; }
+.navbar-burger:hover span {
+  background-color: #ff3860; }
+.navbar-burger.is-active span {
+  background-color: #ff3860; }
+
+/*# sourceMappingURL=main.css.map */

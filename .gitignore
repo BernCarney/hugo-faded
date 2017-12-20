@@ -7,3 +7,5 @@ public/
 # npm packages
 package-lock.json
 node_modules
+
+themes/faded/static/css/main\.css\.map
