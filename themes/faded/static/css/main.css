@@ -4810,7 +4810,6 @@ html.has-navbar-fixed-bottom {
 .navbar-burger {
   cursor: pointer;
   display: block;
-  height: 2.25rem;
   position: relative;
   width: 2.25rem;
   margin-left: auto; }
