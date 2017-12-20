@@ -1,6 +1,8 @@
 # Basic Setup Variables
 baseURL: "/"
-languageCode: en-us
-title: Faded - A Little Bit Lighter
+languageCode: en
+title: "Faded - A Little Bit Lighter"
 theme: faded
 MetaDataFormat: yaml
+params:
+  description: "Faded - A Little Bit Lighter in the Right Areas"
