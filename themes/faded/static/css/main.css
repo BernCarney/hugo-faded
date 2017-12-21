@@ -7489,4 +7489,9 @@ pre {
   -webkit-overflow-scrolling: touch;
   padding: 1.25rem 0.5rem; }
 
+a span {
+  color: #363636; }
+  a span:hover {
+    color: #ff3860; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,9 +1,7 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 
-<section class="section">
-  {{ partial "profile.html" . }}
-</section>
+{{ partial "profile.html" . }}
 
 <article>
   {{ range first 1 (where .Site.Pages "Type" "post") }}
