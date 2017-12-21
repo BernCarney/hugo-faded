@@ -3,10 +3,21 @@
 @import "./sass/utilities/functions"
 
 // 2. Customize Variables
+// General Padding
 $content-pre-padding: .75em .5em !default
 $section-padding: 3rem .75rem !default
+
+// Navigation
 $navbar-height: 2.25rem !default
+
+// Border Radius change
 $message-body-radius: 0 !default
+
+// Links
+$link: $red !default
+$red-invert: findColorInvert($red) !default
+$link-invert: $red-invert !default
+$link-visited: $orange !default
 
 // 3. Import the rest of Bulma
 @import "bulma"
@@ -25,7 +36,7 @@ $message-body-radius: 0 !default
       background-color: $red
 
 .navbar
-  box-shadow: 0 2px 5px $grey-lighter
+  border-bottom: 1px solid $grey-lighter
 
 pre
   +overflow-touch
@@ -36,3 +47,9 @@ a
     color: $dark
     &:hover
       color: $danger
+
+.has-navbar-fixed-top
+  padding-bottom: $navbar-height+2rem
+
+.profile-padding
+  padding: 0 3rem
