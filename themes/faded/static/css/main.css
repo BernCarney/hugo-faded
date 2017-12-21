@@ -4182,7 +4182,7 @@ a.dropdown-item {
 
 .message-body {
   border: 1px solid #dbdbdb;
-  border-radius: 3px;
+  border-radius: 0;
   color: #4a4a4a;
   padding: 1em 1.25em; }
   .message-body code,
