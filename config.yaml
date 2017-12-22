@@ -12,34 +12,34 @@ params:
 
 social:
   # site: "profile URL you want to link to"
-  twitter: "https://twitter.com/BCarney_"
-  github: "https://github.com/BernCarney"
-  linkedin: "https://www.linkedin.com/in/berncarney"
+  behance: "behance"
+  btc: "btc"
   codepen: "https://codepen.io/Bern_"
-  instagram: "https://www.instagram.com/bern.carney"
+  deviantart: "deviantart"
+  dribbble: "dribble"
+  etsy: "etsy"
   facebook: "https://www.facebook.com/bern.carney"
-  stackoverflow:
-  behance:
-  btc:
-  deviantart:
-  dribbble:
-  flickr:
-  etsy:
-  gitlab:
-  googleplus:
-  jsfiddle:
-  lastfm:
-  medium:
-  pinterest:
-  reddit:
-  skype:
-  snapchat:
+  flickr: "flickr"
+  github: "https://github.com/BernCarney"
+  gitlab: "gitlab"
+  google-plus: "googleplus"
+  instagram: "https://www.instagram.com/bern.carney"
+  jsfiddle: jsfiddle
+  lastfm: lastfm
+  linkedin: "https://www.linkedin.com/in/berncarney"
+  medium: medium
+  pinterest: pinterest
+  reddit: reddit
+  skype: skype
+  snapchat: snapchat
   spotify: "https://open.spotify.com/user/bernjc3"
-  steam:
-  tumblr:
-  twitch:
-  vimeo:
-  wechat:
-  vine:
-  youtube:
-  yelp:
+  stack-overflow: stackoverflow
+  steam: steam
+  tumblr: tumblr
+  twitch: twitch
+  twitter: "https://twitter.com/BCarney_"
+  vimeo: vimeo
+  vine: vine
+  wechat: wechat
+  yelp: yelp
+  youtube: youtube
