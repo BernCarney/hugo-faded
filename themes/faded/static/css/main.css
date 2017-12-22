@@ -7438,14 +7438,14 @@ label.panel-block {
   color: #b5b5b5;
   content: attr(data-content);
   display: inline-block;
-  font-size: 0.75rem;
-  padding: 0.5rem 0.8rem;
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
   -webkit-transform: translateY(-1.1rem);
   transform: translateY(-1.1rem);
   text-align: center; }
 
 .is-divider {
-  border-top: 0.1rem solid white;
+  border-top: 0.1rem solid #dbdbdb;
   height: 0.1rem;
   margin: 2rem 0;
   text-align: center; }
@@ -7455,7 +7455,7 @@ label.panel-block {
   padding: 2rem;
   position: relative; }
   .is-divider-vertical::before {
-    border-left: 0.1rem solid white;
+    border-left: 0.1rem solid #dbdbdb;
     bottom: 1rem;
     content: "";
     display: block;
@@ -7494,7 +7494,7 @@ a span {
     color: #ff3860; }
 
 .hero-navbar-fixed-top {
-  padding-bottom: 4.25rem; }
+  padding-bottom: 20%; }
 
 .profile-padding {
   padding: 0 3rem; }
