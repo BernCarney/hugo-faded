@@ -1,28 +1,21 @@
-<section class="hero is-fullheight has-navbar-fixed-top">
+<section class="hero is-fullheight hero-navbar-fixed-top">
   <div class="hero-body">
     <div class="container has-text-centered">
       <figure>
-        <img src="{{ "img/faded.jpg" | relURL }}" alt="" style="border-radius: 50%" />
+        <img src="{{ .Site.Params.profilePath | relURL }}" alt="" style="border-radius: 50%" />
       </figure>
       <hr class="is-divider" data-content="×">
-      <p class="title">Faded</p>
-      <p class="subtitle is-6 has-text-grey-light">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+      <p class="title">{{ .Title }}</p>
+      <p class="subtitle is-6 has-text-grey-light">{{ .Site.Params.description }}</p>
     </div>
   </div>
   <div class="hero-foot profile-padding">
     <div class="container has-text-centered">
-      <a href=""><span class="icon"><i class="fa fa-twitter"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-github"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-rss"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-linkedin"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-codepen"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-instagram"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-twitter"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-github"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-rss"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-linkedin"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-codepen"></i></span></a>
-      <a href=""><span class="icon"><i class="fa fa-instagram"></i></span></a>
+      {{ range $key, $val := .Site.Social }}
+        {{ with . }}
+          <a href="{{ $val }}" target=_blank><span class="icon"><i class="fa fa-{{ $key }}"></i></span></a>
+        {{ end }}
+      {{ end }}
     </div>
   </div>
 </section>

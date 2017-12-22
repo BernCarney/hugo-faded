@@ -4,5 +4,41 @@ languageCode: en
 title: "Faded"
 theme: faded
 MetaDataFormat: yaml
+
 params:
-  description: "Faded - A Little Bit Lighter"
+  description: "A Little Bit Lighter Than Most"
+  profilePath: "img/faded.jpg"
+
+social:
+  # site: "profile URL you want to link to"
+  twitter: "https://twitter.com/BCarney_"
+  github: "https://github.com/BernCarney"
+  linkedin: "https://www.linkedin.com/in/berncarney"
+  codepen: "https://codepen.io/Bern_"
+  instagram: "https://www.instagram.com/bern.carney"
+  facebook: "https://www.facebook.com/bern.carney"
+  stackoverflow:
+  behance:
+  btc:
+  deviantart:
+  dribbble:
+  flickr:
+  etsy:
+  gitlab:
+  googleplus:
+  jsfiddle:
+  lastfm:
+  medium:
+  pinterest:
+  reddit:
+  skype:
+  snapchat:
+  spotify: "https://open.spotify.com/user/bernjc3"
+  steam:
+  tumblr:
+  twitch:
+  vimeo:
+  wechat:
+  vine:
+  youtube:
+  yelp:
