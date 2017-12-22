@@ -8,6 +8,7 @@ MetaDataFormat: yaml
 params:
   description: "A Little Bit Lighter Than Most"
   profilePath: "img/faded.jpg"
+  errorPath: "img/faded.jpg"
 
 social:
   # site: "profile URL you want to link to"

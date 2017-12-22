@@ -7499,6 +7499,9 @@ a span {
 .profile-padding {
   padding: 0 3rem; }
 
+.error-padding {
+  padding: 0 6rem; }
+
 .content pre {
   padding: 0.5em 0.5em 0; }
 
